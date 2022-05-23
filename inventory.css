@@ -1,0 +1,21 @@
+#all_products{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 50px;
+    padding: 35px;
+}
+#div1{
+    width: 300px;
+    padding: 20px;
+    text-align: center;
+}
+
+#add_more_product{
+    border-radius: 5px;
+    height: 35px;
+}
+
+#remove_product{
+    border-radius: 5px;
+    height: 35px;
+}

@@ -1,0 +1,25 @@
+#products, h2, #navbar{
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    gap: 15px;
+    margin: auto;
+}
+#products input, #products button{
+    height: 35px;
+} 
+#show_products{
+    height: 35px;
+}
+h2{
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+#navbar{
+    margin-top: 50px;
+    margin-bottom: 10px;
+}
+#navbar button, #products button{
+    border-radius: 5px;
+}
+
